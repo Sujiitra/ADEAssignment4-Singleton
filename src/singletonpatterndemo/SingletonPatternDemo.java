@@ -7,6 +7,11 @@ package singletonpatterndemo;
 /**
  *
  * @author sujiitramurukeshan
+ * Singleton pattern demo,
+ * has main method,
+ * single instance is created
+ * sqr method is called with an integer
+ * 
  */
 public class SingletonPatternDemo {
 
@@ -15,7 +20,6 @@ public class SingletonPatternDemo {
      */
     //Singleton Pattern Demo
     public static void main(String[] args) {
-        // TODO code application logic here
         SingleObject object= SingleObject.getInstance(); // Single Instance
         object.sqr(5);
     }

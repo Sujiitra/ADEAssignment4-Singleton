@@ -10,15 +10,17 @@ import singletonpatterndemo.SingleObject;
 /**
  *
  * @author sujiitramurukeshan
+ * Single Object Test class is created,
+ * sqr test method is created,
+ * assert equals 4 when the sqr method with 2 as a parameter is called
+ * 
  */
 public class SingleObject_Test {
     
     public SingleObject_Test() {
     }
 SingleObject s=new SingleObject();
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
+    
      @Test
     public void sqr_Test(){
         assertEquals(4,s.sqr(2));
